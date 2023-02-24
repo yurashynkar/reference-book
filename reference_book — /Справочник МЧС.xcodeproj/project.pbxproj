@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3627EE95297C7B470029AC8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627EE94297C7B470029AC8F /* AppDelegate.swift */; };
+		3627EE97297C7B470029AC8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627EE96297C7B470029AC8F /* SceneDelegate.swift */; };
+		3627EE99297C7B470029AC8F /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627EE98297C7B470029AC8F /* ContainerViewController.swift */; };
+		3627EE9E297C7B480029AC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3627EE9D297C7B480029AC8F /* Assets.xcassets */; };
+		3627EEA1297C7B480029AC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3627EE9F297C7B480029AC8F /* LaunchScreen.storyboard */; };
+		3627EEAA297C8D3C0029AC8F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627EEA9297C8D3C0029AC8F /* MenuViewController.swift */; };
+		3627EEAC297C8D560029AC8F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627EEAB297C8D560029AC8F /* HomeViewController.swift */; };
+		363485DF299BE02A00C59D11 /* устав службы.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363485D6299BE02A00C59D11 /* устав службы.pdf */; };
+		363485E0299BE02A00C59D11 /* инструкция гсв.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363485D7299BE02A00C59D11 /* инструкция гсв.pdf */; };
+		363485E1299BE02A00C59D11 /* инструкция по рукавам.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363485D8299BE02A00C59D11 /* инструкция по рукавам.pdf */; };
+		363485E2299BE02A00C59D11 /* тэу.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363485D9299BE02A00C59D11 /* тэу.pdf */; };
+		363485E3299BE02A00C59D11 /* испытания птв аси асо.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363485DA299BE02A00C59D11 /* испытания птв аси асо.pdf */; };
+		363485E4299BE02A00C59D11 /* правила организации тех.службы.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363485DB299BE02A00C59D11 /* правила организации тех.службы.pdf */; };
+		363485E5299BE02A00C59D11 /* боевой устав.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363485DC299BE02A00C59D11 /* боевой устав.pdf */; };
+		363485E7299BE02A00C59D11 /* правила ношения формы док мчс.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363485DE299BE02A00C59D11 /* правила ношения формы док мчс.pdf */; };
+		363485E9299BE0DC00C59D11 /* правила гдзс.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363485E8299BE0DC00C59D11 /* правила гдзс.pdf */; };
+		363485EB299BE37B00C59D11 /* инструкция оп и ок.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363485EA299BE37B00C59D11 /* инструкция оп и ок.pdf */; };
+		363990C529A24B5A00E0FC6A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 363990C429A24B5A00E0FC6A /* FirebaseAnalytics */; };
+		363990C729A24B5A00E0FC6A /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 363990C629A24B5A00E0FC6A /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		363B3B552981BFB60019C954 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363B3B542981BFB60019C954 /* BaseViewController.swift */; };
+		363B3B572981C2C00019C954 /* PDFViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363B3B562981C2C00019C954 /* PDFViewerViewController.swift */; };
+		363B3BD42983EB0D0019C954 /* спасатель-пожарный.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BC62983EB0C0019C954 /* спасатель-пожарный.pdf */; };
+		363B3BD52983EB0D0019C954 /* командир звена гдзс.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BC72983EB0C0019C954 /* командир звена гдзс.pdf */; };
+		363B3BD62983EB0D0019C954 /* газодымозащитник.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BC82983EB0C0019C954 /* газодымозащитник.pdf */; };
+		363B3BD72983EB0D0019C954 /* начальник гарнизона.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BC92983EB0C0019C954 /* начальник гарнизона.pdf */; };
+		363B3BD82983EB0D0019C954 /* диспетчер цоу г(р)очс (псч).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BCA2983EB0C0019C954 /* диспетчер цоу г(р)очс (псч).pdf */; };
+		363B3BD92983EB0D0019C954 /* дежурный по смнене.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BCB2983EB0D0019C954 /* дежурный по смнене.pdf */; };
+		363B3BDA2983EB0D0019C954 /* постовой на пб(гдзс).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BCC2983EB0D0019C954 /* постовой на пб(гдзс).pdf */; };
+		363B3BDB2983EB0D0019C954 /* диспетчер цоу гарнизона.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BCD2983EB0D0019C954 /* диспетчер цоу гарнизона.pdf */; };
+		363B3BDC2983EB0D0019C954 /* главный оперативный дежурный.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BCE2983EB0D0019C954 /* главный оперативный дежурный.pdf */; };
+		363B3BDD2983EB0D0019C954 /* командир отделения.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BCF2983EB0D0019C954 /* командир отделения.pdf */; };
+		363B3BDE2983EB0D0019C954 /* дневальный по гаражу(кпп).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BD02983EB0D0019C954 /* дневальный по гаражу(кпп).pdf */; };
+		363B3BDF2983EB0D0019C954 /* начальник караула.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BD12983EB0D0019C954 /* начальник караула.pdf */; };
+		363B3BE02983EB0D0019C954 /* водитель.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BD22983EB0D0019C954 /* водитель.pdf */; };
+		363B3BE12983EB0D0019C954 /* отвественный по гарнизону.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 363B3BD32983EB0D0019C954 /* отвественный по гарнизону.pdf */; };
+		363B3BE72983EE270019C954 /* InfoDocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363B3BE62983EE270019C954 /* InfoDocViewController.swift */; };
+		3692986D298EAFC000329D8B /* нормативы по пасп.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3692986B298EAFBF00329D8B /* нормативы по пасп.pdf */; };
+		3692986E298EAFC000329D8B /* нормативы по фп.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3692986C298EAFBF00329D8B /* нормативы по фп.pdf */; };
+		36929876299063B400329D8B /* оборудование и снаряжение.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36929871299063B400329D8B /* оборудование и снаряжение.pdf */; };
+		36929877299063B400329D8B /* алгоритм чс с охв.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36929872299063B400329D8B /* алгоритм чс с охв.pdf */; };
+		36929878299063B400329D8B /* характеристики основных охв.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36929873299063B400329D8B /* характеристики основных охв.pdf */; };
+		36929879299063B400329D8B /* демеркуризация.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36929874299063B400329D8B /* демеркуризация.pdf */; };
+		3692987A299063B400329D8B /* алгоритм действий чс с иии.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36929875299063B400329D8B /* алгоритм действий чс с иии.pdf */; };
+		36D31AD92992F52100ABD41C /* работа с веревками.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36D31AD52992F52000ABD41C /* работа с веревками.pdf */; };
+		36D31ADA2992F52100ABD41C /* птв|аси|асо.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36D31AD62992F52100ABD41C /* птв|аси|асо.pdf */; };
+		36D31ADB2992F52100ABD41C /* транспортные средства.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36D31AD72992F52100ABD41C /* транспортные средства.pdf */; };
+		36D31ADC2992F52100ABD41C /* боевая одежда.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36D31AD82992F52100ABD41C /* боевая одежда.pdf */; };
+		36D7435E298D762C00FC26FF /* график.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36D7435D298D762C00FC26FF /* график.pdf */; };
+		36F8030D297D89170069F928 /* InfoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F8030C297D89170069F928 /* InfoBaseViewController.swift */; };
+		36F80315297DE1650069F928 /* InfoNormativViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F80314297DE1650069F928 /* InfoNormativViewController.swift */; };
+		36F80317297DE1EF0069F928 /* InfoCHRZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F80316297DE1EF0069F928 /* InfoCHRZViewController.swift */; };
+		36F8031B297DE22D0069F928 /* InfoGraficsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F8031A297DE22D0069F928 /* InfoGraficsViewController.swift */; };
+		36F8031E297EA5EB0069F928 /* Положение.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36F8031D297EA5EB0069F928 /* Положение.pdf */; };
+		36F8035B29817F6C0069F928 /* InfoResponsibilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F8035A29817F6C0069F928 /* InfoResponsibilitiesViewController.swift */; };
+		36F803802981B6A90069F928 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 36F8037F2981B6A90069F928 /* SnapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3627EE91297C7B470029AC8F /* Справочник МЧС.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Справочник МЧС.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3627EE94297C7B470029AC8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3627EE96297C7B470029AC8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3627EE98297C7B470029AC8F /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		3627EE9D297C7B480029AC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3627EEA0297C7B480029AC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3627EEA2297C7B480029AC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3627EEA9297C8D3C0029AC8F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3627EEAB297C8D560029AC8F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		363485D6299BE02A00C59D11 /* устав службы.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "устав службы.pdf"; path = "../../../../файлы мчс/документы МЧС/pdf/устав службы.pdf"; sourceTree = "<group>"; };
+		363485D7299BE02A00C59D11 /* инструкция гсв.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "инструкция гсв.pdf"; sourceTree = "<group>"; };
+		363485D8299BE02A00C59D11 /* инструкция по рукавам.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "инструкция по рукавам.pdf"; path = "../../../../файлы мчс/документы МЧС/pdf/инструкция по рукавам.pdf"; sourceTree = "<group>"; };
+		363485D9299BE02A00C59D11 /* тэу.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "тэу.pdf"; sourceTree = "<group>"; };
+		363485DA299BE02A00C59D11 /* испытания птв аси асо.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "испытания птв аси асо.pdf"; sourceTree = "<group>"; };
+		363485DB299BE02A00C59D11 /* правила организации тех.службы.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "правила организации тех.службы.pdf"; path = "../../../../файлы мчс/документы МЧС/pdf/правила организации тех.службы.pdf"; sourceTree = "<group>"; };
+		363485DC299BE02A00C59D11 /* боевой устав.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "боевой устав.pdf"; path = "../../../../файлы мчс/документы МЧС/pdf/боевой устав.pdf"; sourceTree = "<group>"; };
+		363485DE299BE02A00C59D11 /* правила ношения формы док мчс.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "правила ношения формы док мчс.pdf"; path = "../../../../файлы мчс/документы МЧС/pdf/правила ношения формы док мчс.pdf"; sourceTree = "<group>"; };
+		363485E8299BE0DC00C59D11 /* правила гдзс.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "правила гдзс.pdf"; sourceTree = "<group>"; };
+		363485EA299BE37B00C59D11 /* инструкция оп и ок.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "инструкция оп и ок.pdf"; sourceTree = "<group>"; };
+		363B3B542981BFB60019C954 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		363B3B562981C2C00019C954 /* PDFViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerViewController.swift; sourceTree = "<group>"; };
+		363B3BC62983EB0C0019C954 /* спасатель-пожарный.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "спасатель-пожарный.pdf"; sourceTree = "<group>"; };
+		363B3BC72983EB0C0019C954 /* командир звена гдзс.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "командир звена гдзс.pdf"; sourceTree = "<group>"; };
+		363B3BC82983EB0C0019C954 /* газодымозащитник.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "газодымозащитник.pdf"; sourceTree = "<group>"; };
+		363B3BC92983EB0C0019C954 /* начальник гарнизона.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "начальник гарнизона.pdf"; sourceTree = "<group>"; };
+		363B3BCA2983EB0C0019C954 /* диспетчер цоу г(р)очс (псч).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "диспетчер цоу г(р)очс (псч).pdf"; sourceTree = "<group>"; };
+		363B3BCB2983EB0D0019C954 /* дежурный по смнене.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "дежурный по смнене.pdf"; sourceTree = "<group>"; };
+		363B3BCC2983EB0D0019C954 /* постовой на пб(гдзс).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "постовой на пб(гдзс).pdf"; sourceTree = "<group>"; };
+		363B3BCD2983EB0D0019C954 /* диспетчер цоу гарнизона.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "диспетчер цоу гарнизона.pdf"; sourceTree = "<group>"; };
+		363B3BCE2983EB0D0019C954 /* главный оперативный дежурный.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "главный оперативный дежурный.pdf"; sourceTree = "<group>"; };
+		363B3BCF2983EB0D0019C954 /* командир отделения.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "командир отделения.pdf"; sourceTree = "<group>"; };
+		363B3BD02983EB0D0019C954 /* дневальный по гаражу(кпп).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "дневальный по гаражу(кпп).pdf"; sourceTree = "<group>"; };
+		363B3BD12983EB0D0019C954 /* начальник караула.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "начальник караула.pdf"; sourceTree = "<group>"; };
+		363B3BD22983EB0D0019C954 /* водитель.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "водитель.pdf"; sourceTree = "<group>"; };
+		363B3BD32983EB0D0019C954 /* отвественный по гарнизону.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "отвественный по гарнизону.pdf"; sourceTree = "<group>"; };
+		363B3BE62983EE270019C954 /* InfoDocViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDocViewController.swift; sourceTree = "<group>"; };
+		3692986B298EAFBF00329D8B /* нормативы по пасп.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "нормативы по пасп.pdf"; sourceTree = "<group>"; };
+		3692986C298EAFBF00329D8B /* нормативы по фп.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "нормативы по фп.pdf"; sourceTree = "<group>"; };
+		36929871299063B400329D8B /* оборудование и снаряжение.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "оборудование и снаряжение.pdf"; sourceTree = "<group>"; };
+		36929872299063B400329D8B /* алгоритм чс с охв.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "алгоритм чс с охв.pdf"; sourceTree = "<group>"; };
+		36929873299063B400329D8B /* характеристики основных охв.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "характеристики основных охв.pdf"; sourceTree = "<group>"; };
+		36929874299063B400329D8B /* демеркуризация.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "демеркуризация.pdf"; sourceTree = "<group>"; };
+		36929875299063B400329D8B /* алгоритм действий чс с иии.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "алгоритм действий чс с иии.pdf"; sourceTree = "<group>"; };
+		36D31AD52992F52000ABD41C /* работа с веревками.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "работа с веревками.pdf"; sourceTree = "<group>"; };
+		36D31AD62992F52100ABD41C /* птв|аси|асо.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "птв|аси|асо.pdf"; sourceTree = "<group>"; };
+		36D31AD72992F52100ABD41C /* транспортные средства.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "транспортные средства.pdf"; sourceTree = "<group>"; };
+		36D31AD82992F52100ABD41C /* боевая одежда.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "боевая одежда.pdf"; sourceTree = "<group>"; };
+		36D7435D298D762C00FC26FF /* график.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "график.pdf"; sourceTree = "<group>"; };
+		36F8030C297D89170069F928 /* InfoBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBaseViewController.swift; sourceTree = "<group>"; };
+		36F80314297DE1650069F928 /* InfoNormativViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoNormativViewController.swift; sourceTree = "<group>"; };
+		36F80316297DE1EF0069F928 /* InfoCHRZViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCHRZViewController.swift; sourceTree = "<group>"; };
+		36F8031A297DE22D0069F928 /* InfoGraficsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoGraficsViewController.swift; sourceTree = "<group>"; };
+		36F8031D297EA5EB0069F928 /* Положение.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Положение.pdf"; sourceTree = "<group>"; };
+		36F8035A29817F6C0069F928 /* InfoResponsibilitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoResponsibilitiesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3627EE8E297C7B470029AC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363990C529A24B5A00E0FC6A /* FirebaseAnalytics in Frameworks */,
+				363990C729A24B5A00E0FC6A /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				36F803802981B6A90069F928 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3627EE88297C7B470029AC8F = {
+			isa = PBXGroup;
+			children = (
+				3627EE93297C7B470029AC8F /* reference_book */,
+				3627EE92297C7B470029AC8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3627EE92297C7B470029AC8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3627EE91297C7B470029AC8F /* Справочник МЧС.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3627EE93297C7B470029AC8F /* reference_book */ = {
+			isa = PBXGroup;
+			children = (
+				363B3B532981BFA80019C954 /* Common */,
+				36F80324297ED3510069F928 /* MainViewControllers */,
+				3627EEA8297C8D080029AC8F /* ViewControllers */,
+				3627EE94297C7B470029AC8F /* AppDelegate.swift */,
+				3627EE96297C7B470029AC8F /* SceneDelegate.swift */,
+				3627EE9D297C7B480029AC8F /* Assets.xcassets */,
+				3627EE9F297C7B480029AC8F /* LaunchScreen.storyboard */,
+				3627EEA2297C7B480029AC8F /* Info.plist */,
+				363B3BE82983F2220019C954 /* Документы МЧС */,
+				363B3B612982C3DF0019C954 /* обязанности */,
+				36D31AD22992F4C300ABD41C /* база знаний */,
+				3692986F298EAFCA00329D8B /* нормативы */,
+				369298702990637F00329D8B /* схрз */,
+				363B3B582981C63D0019C954 /* график дежурств */,
+			);
+			path = reference_book;
+			sourceTree = "<group>";
+		};
+		3627EEA8297C8D080029AC8F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				36F8031C297DE2490069F928 /* InfoViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		363B3B532981BFA80019C954 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				363B3B542981BFB60019C954 /* BaseViewController.swift */,
+				363B3B562981C2C00019C954 /* PDFViewerViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		363B3B582981C63D0019C954 /* график дежурств */ = {
+			isa = PBXGroup;
+			children = (
+				36D7435D298D762C00FC26FF /* график.pdf */,
+				36F8031D297EA5EB0069F928 /* Положение.pdf */,
+			);
+			path = "график дежурств";
+			sourceTree = "<group>";
+		};
+		363B3B5929828E590019C954 /* Normativ */ = {
+			isa = PBXGroup;
+			children = (
+				36F80314297DE1650069F928 /* InfoNormativViewController.swift */,
+			);
+			path = Normativ;
+			sourceTree = "<group>";
+		};
+		363B3B5A29828E690019C954 /* Grafics */ = {
+			isa = PBXGroup;
+			children = (
+				36F8031A297DE22D0069F928 /* InfoGraficsViewController.swift */,
+			);
+			path = Grafics;
+			sourceTree = "<group>";
+		};
+		363B3B612982C3DF0019C954 /* обязанности */ = {
+			isa = PBXGroup;
+			children = (
+				363B3BD22983EB0D0019C954 /* водитель.pdf */,
+				363B3BC82983EB0C0019C954 /* газодымозащитник.pdf */,
+				363B3BCE2983EB0D0019C954 /* главный оперативный дежурный.pdf */,
+				363B3BCB2983EB0D0019C954 /* дежурный по смнене.pdf */,
+				363B3BCA2983EB0C0019C954 /* диспетчер цоу г(р)очс (псч).pdf */,
+				363B3BCD2983EB0D0019C954 /* диспетчер цоу гарнизона.pdf */,
+				363B3BD02983EB0D0019C954 /* дневальный по гаражу(кпп).pdf */,
+				363B3BC72983EB0C0019C954 /* командир звена гдзс.pdf */,
+				363B3BCF2983EB0D0019C954 /* командир отделения.pdf */,
+				363B3BC92983EB0C0019C954 /* начальник гарнизона.pdf */,
+				363B3BD12983EB0D0019C954 /* начальник караула.pdf */,
+				363B3BD32983EB0D0019C954 /* отвественный по гарнизону.pdf */,
+				363B3BCC2983EB0D0019C954 /* постовой на пб(гдзс).pdf */,
+				363B3BC62983EB0C0019C954 /* спасатель-пожарный.pdf */,
+			);
+			path = "обязанности";
+			sourceTree = "<group>";
+		};
+		363B3BE82983F2220019C954 /* Документы МЧС */ = {
+			isa = PBXGroup;
+			children = (
+				363485DC299BE02A00C59D11 /* боевой устав.pdf */,
+				363485EA299BE37B00C59D11 /* инструкция оп и ок.pdf */,
+				363485D7299BE02A00C59D11 /* инструкция гсв.pdf */,
+				363485D8299BE02A00C59D11 /* инструкция по рукавам.pdf */,
+				363485DA299BE02A00C59D11 /* испытания птв аси асо.pdf */,
+				363485E8299BE0DC00C59D11 /* правила гдзс.pdf */,
+				363485DE299BE02A00C59D11 /* правила ношения формы док мчс.pdf */,
+				363485DB299BE02A00C59D11 /* правила организации тех.службы.pdf */,
+				363485D9299BE02A00C59D11 /* тэу.pdf */,
+				363485D6299BE02A00C59D11 /* устав службы.pdf */,
+			);
+			path = "Документы МЧС";
+			sourceTree = "<group>";
+		};
+		3692986F298EAFCA00329D8B /* нормативы */ = {
+			isa = PBXGroup;
+			children = (
+				3692986B298EAFBF00329D8B /* нормативы по пасп.pdf */,
+				3692986C298EAFBF00329D8B /* нормативы по фп.pdf */,
+			);
+			path = "нормативы";
+			sourceTree = "<group>";
+		};
+		369298702990637F00329D8B /* схрз */ = {
+			isa = PBXGroup;
+			children = (
+				36929875299063B400329D8B /* алгоритм действий чс с иии.pdf */,
+				36929872299063B400329D8B /* алгоритм чс с охв.pdf */,
+				36929874299063B400329D8B /* демеркуризация.pdf */,
+				36929871299063B400329D8B /* оборудование и снаряжение.pdf */,
+				36929873299063B400329D8B /* характеристики основных охв.pdf */,
+			);
+			path = "схрз";
+			sourceTree = "<group>";
+		};
+		36D31AD22992F4C300ABD41C /* база знаний */ = {
+			isa = PBXGroup;
+			children = (
+				36D31AD82992F52100ABD41C /* боевая одежда.pdf */,
+				36D31AD62992F52100ABD41C /* птв|аси|асо.pdf */,
+				36D31AD52992F52000ABD41C /* работа с веревками.pdf */,
+				36D31AD72992F52100ABD41C /* транспортные средства.pdf */,
+			);
+			name = "база знаний";
+			path = "база знаний";
+			sourceTree = "<group>";
+		};
+		36F8031C297DE2490069F928 /* InfoViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				36F8033D298148880069F928 /* DocumentMCHS */,
+				36F8035C298180190069F928 /* Responsibilities */,
+				36F8033E29815CA50069F928 /* Base */,
+				363B3B5929828E590019C954 /* Normativ */,
+				36F8034A298167D20069F928 /* CHRZ */,
+				363B3B5A29828E690019C954 /* Grafics */,
+			);
+			path = InfoViewControllers;
+			sourceTree = "<group>";
+		};
+		36F80324297ED3510069F928 /* MainViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3627EEAB297C8D560029AC8F /* HomeViewController.swift */,
+				3627EEA9297C8D3C0029AC8F /* MenuViewController.swift */,
+				3627EE98297C7B470029AC8F /* ContainerViewController.swift */,
+			);
+			path = MainViewControllers;
+			sourceTree = "<group>";
+		};
+		36F8033D298148880069F928 /* DocumentMCHS */ = {
+			isa = PBXGroup;
+			children = (
+				363B3BE62983EE270019C954 /* InfoDocViewController.swift */,
+			);
+			path = DocumentMCHS;
+			sourceTree = "<group>";
+		};
+		36F8033E29815CA50069F928 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				36F8030C297D89170069F928 /* InfoBaseViewController.swift */,
+				36F8034129815FE30069F928 /* BaseViewControllers */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		36F8034129815FE30069F928 /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		36F8034A298167D20069F928 /* CHRZ */ = {
+			isa = PBXGroup;
+			children = (
+				36F80316297DE1EF0069F928 /* InfoCHRZViewController.swift */,
+			);
+			path = CHRZ;
+			sourceTree = "<group>";
+		};
+		36F8035C298180190069F928 /* Responsibilities */ = {
+			isa = PBXGroup;
+			children = (
+				36F8035A29817F6C0069F928 /* InfoResponsibilitiesViewController.swift */,
+				36F8035F298180800069F928 /* ResponsibilitiesViewControllers */,
+			);
+			path = Responsibilities;
+			sourceTree = "<group>";
+		};
+		36F8035F298180800069F928 /* ResponsibilitiesViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponsibilitiesViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3627EE90297C7B470029AC8F /* Справочник МЧС */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3627EEA5297C7B480029AC8F /* Build configuration list for PBXNativeTarget "Справочник МЧС" */;
+			buildPhases = (
+				3627EE8D297C7B470029AC8F /* Sources */,
+				3627EE8E297C7B470029AC8F /* Frameworks */,
+				3627EE8F297C7B470029AC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Справочник МЧС";
+			packageProductDependencies = (
+				36F8037F2981B6A90069F928 /* SnapKit */,
+				363990C429A24B5A00E0FC6A /* FirebaseAnalytics */,
+				363990C629A24B5A00E0FC6A /* FirebaseAnalyticsWithoutAdIdSupport */,
+			);
+			productName = reference_book;
+			productReference = 3627EE91297C7B470029AC8F /* Справочник МЧС.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3627EE89297C7B470029AC8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3627EE90297C7B470029AC8F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3627EE8C297C7B470029AC8F /* Build configuration list for PBXProject "Справочник МЧС" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3627EE88297C7B470029AC8F;
+			packageReferences = (
+				36F8037E2981B6A90069F928 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				36F803812981B87D0069F928 /* XCRemoteSwiftPackageReference "SwiftGenPlugin" */,
+				363990C329A24B5A00E0FC6A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3627EE92297C7B470029AC8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3627EE90297C7B470029AC8F /* Справочник МЧС */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3627EE8F297C7B470029AC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3627EEA1297C7B480029AC8F /* LaunchScreen.storyboard in Resources */,
+				363B3BE12983EB0D0019C954 /* отвественный по гарнизону.pdf in Resources */,
+				363B3BDE2983EB0D0019C954 /* дневальный по гаражу(кпп).pdf in Resources */,
+				363B3BD92983EB0D0019C954 /* дежурный по смнене.pdf in Resources */,
+				36D31ADB2992F52100ABD41C /* транспортные средства.pdf in Resources */,
+				363485E9299BE0DC00C59D11 /* правила гдзс.pdf in Resources */,
+				36F8031E297EA5EB0069F928 /* Положение.pdf in Resources */,
+				36D31AD92992F52100ABD41C /* работа с веревками.pdf in Resources */,
+				363485E7299BE02A00C59D11 /* правила ношения формы док мчс.pdf in Resources */,
+				363B3BD72983EB0D0019C954 /* начальник гарнизона.pdf in Resources */,
+				36929878299063B400329D8B /* характеристики основных охв.pdf in Resources */,
+				36D7435E298D762C00FC26FF /* график.pdf in Resources */,
+				3692986E298EAFC000329D8B /* нормативы по фп.pdf in Resources */,
+				363485E1299BE02A00C59D11 /* инструкция по рукавам.pdf in Resources */,
+				36D31ADA2992F52100ABD41C /* птв|аси|асо.pdf in Resources */,
+				36D31ADC2992F52100ABD41C /* боевая одежда.pdf in Resources */,
+				363485E0299BE02A00C59D11 /* инструкция гсв.pdf in Resources */,
+				363485E5299BE02A00C59D11 /* боевой устав.pdf in Resources */,
+				363B3BD62983EB0D0019C954 /* газодымозащитник.pdf in Resources */,
+				363B3BD52983EB0D0019C954 /* командир звена гдзс.pdf in Resources */,
+				363B3BD42983EB0D0019C954 /* спасатель-пожарный.pdf in Resources */,
+				363B3BE02983EB0D0019C954 /* водитель.pdf in Resources */,
+				363B3BDC2983EB0D0019C954 /* главный оперативный дежурный.pdf in Resources */,
+				36929879299063B400329D8B /* демеркуризация.pdf in Resources */,
+				363485E3299BE02A00C59D11 /* испытания птв аси асо.pdf in Resources */,
+				363485E4299BE02A00C59D11 /* правила организации тех.службы.pdf in Resources */,
+				363485E2299BE02A00C59D11 /* тэу.pdf in Resources */,
+				363485EB299BE37B00C59D11 /* инструкция оп и ок.pdf in Resources */,
+				363B3BDD2983EB0D0019C954 /* командир отделения.pdf in Resources */,
+				363B3BDB2983EB0D0019C954 /* диспетчер цоу гарнизона.pdf in Resources */,
+				36929876299063B400329D8B /* оборудование и снаряжение.pdf in Resources */,
+				3692986D298EAFC000329D8B /* нормативы по пасп.pdf in Resources */,
+				363B3BDF2983EB0D0019C954 /* начальник караула.pdf in Resources */,
+				3627EE9E297C7B480029AC8F /* Assets.xcassets in Resources */,
+				363485DF299BE02A00C59D11 /* устав службы.pdf in Resources */,
+				3692987A299063B400329D8B /* алгоритм действий чс с иии.pdf in Resources */,
+				363B3BDA2983EB0D0019C954 /* постовой на пб(гдзс).pdf in Resources */,
+				363B3BD82983EB0D0019C954 /* диспетчер цоу г(р)очс (псч).pdf in Resources */,
+				36929877299063B400329D8B /* алгоритм чс с охв.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3627EE8D297C7B470029AC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F80317297DE1EF0069F928 /* InfoCHRZViewController.swift in Sources */,
+				363B3B552981BFB60019C954 /* BaseViewController.swift in Sources */,
+				3627EEAC297C8D560029AC8F /* HomeViewController.swift in Sources */,
+				3627EE99297C7B470029AC8F /* ContainerViewController.swift in Sources */,
+				3627EE95297C7B470029AC8F /* AppDelegate.swift in Sources */,
+				36F8030D297D89170069F928 /* InfoBaseViewController.swift in Sources */,
+				3627EE97297C7B470029AC8F /* SceneDelegate.swift in Sources */,
+				363B3BE72983EE270019C954 /* InfoDocViewController.swift in Sources */,
+				36F80315297DE1650069F928 /* InfoNormativViewController.swift in Sources */,
+				36F8035B29817F6C0069F928 /* InfoResponsibilitiesViewController.swift in Sources */,
+				3627EEAA297C8D3C0029AC8F /* MenuViewController.swift in Sources */,
+				363B3B572981C2C00019C954 /* PDFViewerViewController.swift in Sources */,
+				36F8031B297DE22D0069F928 /* InfoGraficsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3627EE9F297C7B480029AC8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3627EEA0297C7B480029AC8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3627EEA3297C7B480029AC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3627EEA4297C7B480029AC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3627EEA6297C7B480029AC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2WYY6M2GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = reference_book/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reference-book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3627EEA7297C7B480029AC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2WYY6M2GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = reference_book/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reference-book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3627EE8C297C7B470029AC8F /* Build configuration list for PBXProject "Справочник МЧС" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3627EEA3297C7B480029AC8F /* Debug */,
+				3627EEA4297C7B480029AC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3627EEA5297C7B480029AC8F /* Build configuration list for PBXNativeTarget "Справочник МЧС" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3627EEA6297C7B480029AC8F /* Debug */,
+				3627EEA7297C7B480029AC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		363990C329A24B5A00E0FC6A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		36F8037E2981B6A90069F928 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.0;
+			};
+		};
+		36F803812981B87D0069F928 /* XCRemoteSwiftPackageReference "SwiftGenPlugin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftGen/SwiftGenPlugin";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		363990C429A24B5A00E0FC6A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 363990C329A24B5A00E0FC6A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		363990C629A24B5A00E0FC6A /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 363990C329A24B5A00E0FC6A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		36F8037F2981B6A90069F928 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36F8037E2981B6A90069F928 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3627EE89297C7B470029AC8F /* Project object */;
+}
