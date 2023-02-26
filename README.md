@@ -3,6 +3,5 @@ In this repository you can see the reference code, you can request it to be redi
 add your pdf files and change the logo
 
 an example of what it looks like
-![iPhone 13 Pro Max1](https://user-images.githubusercontent.com/119353202/221404607-54838603-100e-46f8-8080-0f6f4db26572.png)
-![iPhone 13 Pro Max 2](https://user-images.githubusercontent.com/119353202/221404612-96420ee3-136e-43e4-8b0b-b8289f564baf.png)
-![Simulator Screen Shot - iPhone 14 Pro - 2023-02-26 at 13 16 41](https://user-images.githubusercontent.com/119353202/221404622-c16c1c17-938b-41e3-b242-defca305a3ec.png)
+
+<img width="914" alt="Снимок экрана 2023-02-26 в 13 20 47" src="https://user-images.githubusercontent.com/119353202/221404800-4e7fb9d3-83d8-47e7-8cdd-bc1a53b38634.png">
