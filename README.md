@@ -4,4 +4,4 @@ add your pdf files and change the logo
 
 an example of what it looks like
 
-<img width="914" alt="Снимок экрана 2023-02-26 в 13 20 47" src="https://user-images.githubusercontent.com/119353202/221404800-4e7fb9d3-83d8-47e7-8cdd-bc1a53b38634.png">
+<img width="665" alt="Снимок экрана 2023-02-26 в 13 37 32" src="https://user-images.githubusercontent.com/119353202/221405449-44218739-1e9f-42c5-be32-ba8bcf0da173.png">
